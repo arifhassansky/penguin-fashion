@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: "Bebas Neue", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: "Roboto", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: "Montserrat", sans-serif; */
+
+/* Shared styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: rgb(164, 188, 70);
+}
+.secondary-color {
+  color: rgb(54, 57, 88);
+}
+.primary-btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgb(164, 188, 70),
+    rgb(133, 160, 25) 100%
+  );
+}
+
+/* Header related styles here */
+
+header {
+  background-color: rgb(255, 251, 240);
+}
+/* Navbar related styles here */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 30px;
+}
+.menu-item {
+  display: flex;
+}
+.menu-item li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: rgb(60, 60, 60);
+  list-style: none;
+  padding: 25px;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+}
+.brand-logo img {
+  width: 56px;
+  height: 39px;
+}
+.penguin,
+.fashion {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding-left: 10px;
+}
+/* Banner section related styles here */
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content {
+  margin-top: 105px;
+}
+.banner-title-part1,
+.banner-title-part2 {
+  color: rgb(250, 190, 76);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 80px;
+}
+.banner-title-part2 {
+  color: rgb(54, 57, 88);
+}
+.banner-description {
+  margin-top: 8px;
+  color: rgb(62, 62, 62);
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 24px;
+}
+.banner-image {
+  max-width: 549px;
+  max-height: 559px;
+  padding-bottom: 50px;
+}
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 150%;
+}
+/* Women section related styles here */
+.section-title {
+  font-size: 3rem;
+  margin-top: 49px;
+  margin-bottom: 31px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.item-image {
+  background: rgb(241, 241, 241);
+  width: 293px;
+  height: 293px;
+  border-radius: 20px;
+  margin-bottom: 17px;
+  text-align: center;
+}
+.item-image img {
+  max-width: 100%;
+  max-height: 95%;
+  padding-top: 10px;
+}
+.item-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.item-description {
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+}
+.item-bottom {
+  display: flex;
+  margin-top: 12px;
+}
+.item-price {
+  color: rgb(250, 190, 76);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  padding-right: 79px;
+}
+/* man's section related styles here */
+.man {
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+/* Information related styles here */
+.imformation {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.information-items {
+  max-width: 50%;
+}
+.information-item {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  max-width: 489px;
+  max-height: 135px;
+  padding: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.information-item-image img {
+  width: 78px;
+  height: 82px;
+  margin-right: 36px;
+}
+.information-image {
+  max-width: 50%;
+}
+.information-image img {
+  width: 100%;
+}
+.information-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+.information-subtitle {
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+  color: rgb(62, 62, 62);
+}
